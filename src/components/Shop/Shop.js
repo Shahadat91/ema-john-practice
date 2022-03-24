@@ -3,7 +3,12 @@ import React from 'react';
 const Shop = () => {
     return (
         <div>
-           <h2>This is Shop</h2> 
+           <div className="products-container">
+                <h3>This is products container</h3>
+           </div>
+           <div className="cart-container">
+                <h3>This is cart container</h3>
+           </div>
         </div>
     );
 };
